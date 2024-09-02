@@ -1,4 +1,6 @@
-/* General Styles */
+/* General Styles 
+TODO: create a better select
+*/
 body {
     font-family: 'Trebuchet MS', sans-serif;
     background-color: #e0f7fa; /* Light seafoam background */
@@ -44,7 +46,11 @@ main {
     margin: 20px;
 }
 
-h1, h2, h3 {
+h1 {
+    color: #ffffff;
+}
+
+h2, h3 {
     color: #00796b;
 }
 
