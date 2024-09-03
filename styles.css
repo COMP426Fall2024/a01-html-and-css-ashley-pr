@@ -83,3 +83,45 @@ footer {
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
 }
+
+#mermaid-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Table header styling */
+#mermaid-table th {
+    background-color: #a0d8ef; 
+    color: #003366; 
+    font-family: 'Georgia', serif; 
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Table data cell styling */
+#mermaid-table td {
+    background-color: #f0f8ff; 
+    padding: 15px;
+    border: 1px solid #ddd; 
+}
+
+/* Styling for the mermaid name and culture in the table */
+#mermaid-table td strong {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    color: #003366; 
+}
+
+#mermaid-table td em {
+    font-family: 'Arial', sans-serif;
+    color: #006699; 
+}
+
+#mermaid-table img {
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; /* This ensures the image fits within the specified dimensions without distortion */
+    border-radius: 10px; 
+}
