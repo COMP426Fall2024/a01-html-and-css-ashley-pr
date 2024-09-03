@@ -128,7 +128,6 @@ footer {
 .key-takeaways {
     display: flex;
     align-items: flex-start;
-    gap: 20px; /* Space between the list and the image */
 }
 
 .key-takeaways ul {
