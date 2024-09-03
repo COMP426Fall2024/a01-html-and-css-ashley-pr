@@ -78,7 +78,6 @@ footer {
     color: #ffffff;
     text-align: center;
     padding: 15px;
-    position: fixed;
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Slight shadow for depth */
@@ -92,7 +91,7 @@ footer {
 
 /* Table header styling */
 #mermaid-table th {
-    background-color: #a0d8ef; 
+    background-color: #e0f7fa; 
     color: #003366; 
     font-family: 'Georgia', serif; 
     font-weight: bold;
@@ -120,8 +119,26 @@ footer {
 }
 
 #mermaid-table img {
-    width: 150px; 
-    height: 150px; 
+    width: 175px; 
+    height: 175px; 
     object-fit: cover; /* This ensures the image fits within the specified dimensions without distortion */
     border-radius: 10px; 
+}
+
+.key-takeaways {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Space between the list and the image */
+}
+
+.key-takeaways ul {
+    flex: 2; /* Allows the list to take up more space */
+    list-style-position: inside; /* Keeps the bullets inside the container */
+}
+
+.key-takeaways #mermaid-symbolism img {
+    flex: 1; /* Ensures the image scales properly within the layout */
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px; /* Optional: add rounded corners to the image */
 }
