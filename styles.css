@@ -132,8 +132,9 @@ footer {
 }
 
 .key-takeaways ul {
-    flex: 2; /* Allows the list to take up more space */
-    list-style-position: inside; /* Keeps the bullets inside the container */
+    flex: 3; /* Allows the list to take up more space */
+    list-style-position: inside; 
+    min-width: 60%;
 }
 
 #mermaid-symbolism img {
