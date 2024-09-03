@@ -136,9 +136,9 @@ footer {
     list-style-position: inside; /* Keeps the bullets inside the container */
 }
 
-.key-takeaways #mermaid-symbolism img {
+#mermaid-symbolism img {
     flex: 1; /* Ensures the image scales properly within the layout */
     max-width: 30%;
     height: auto;
-    border-radius: 10px; /* Optional: add rounded corners to the image */
+    border-radius: 10px; 
 }
