@@ -66,7 +66,7 @@ table, th, td {
     text-align: left;
 }
 
-#index-image img {
+img.index-image {
     max-width: 100%;
     height: auto;
     border: 3px solid #00796b; /* Teal border for images */
